@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(images/isai-ramos-_3SFFsWqCVg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: difference;
+}
+#navbar{
+/* position: fixed; */
+width: 97vw;
+padding:20px;
+margin:auto;
+color: whitesmoke;
+display:flex;
+justify-content: space-around;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbar h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+#navbar h2{
+font-weight: 200;
+}
+#navbar a{
+    display;flex;
+    justify-content: space-around;
+    padding: 10px;
+    color:whitesmoke;
+    text-decoration:none;
+}
+#navbar a:hover{
+    color: blue;
+    
+}
+hr{
+    border:2px solid white;
+    
+}
+#landing-page{
+
+
+margin: 30px 20px 15px 20px;
+width: 90vw;
+height: 80vh;
+display:flex;
+justify-content: space-between;/*justify content horizontally aligns items while align contents vertically aligns items*/
+color:whitesmoke;
+font-weight: bolder;
+
+}
+#landing-page #title{
+    width: 40vw;
+    height: 40vh;
+    font-size:10vh;
+    font-family: "Tusker Grotesk",sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 10%;
+    margin-left: 5%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+#landing-page #title img{
+    max-Width: 40vw;
+    max-height:40vh;
+    margin-left: 20%;
+}
+#landing-page #statement p{
+    width: 40vw;
+    height: 40vh;
+    margin-top: 35%;
+    font-size:xx-large;
+    display:flex;
+    flex-direction: column;
+    justify-content:end; 
+}
+#landing-page button{
+    background-color: green;
+    padding: 5px 10px 5px 10px;
+    color: black
+    border: none;
+    border-radius:5%;
+    text-align:center;
+}
+#wrapper{
+margin: 0px 20px 15px 20px;
+width: 70vw;
+height: 50vh;
+color:whitesmoke;
+font-weight: bolder;
+
+}
+#wrapper h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+#wrapper .icons{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: larger;
+    width:80vw
+}
+#wrapper .icons .left{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#wrapper .icons .middle{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+
+#wrapper .icons .right{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+
+footer{
+
+margin: 30px 20px 15px 20px;
+padding: 3%;
+color:whitesmoke;
+font-weight: bolder;
+width: 90vw;
+height: 40vh;
+}
+footer .row1{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+#mail
+{
+    display: flex;
+    margin-left: 38%;
+}
+#phone
+{
+    display: flex;
+    margin-left: 38%;
+}
+#nairobi
+{
+    display: flex;
+    margin-left: 38%;
+}
+footer .row2{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-between;
+}
+footer .row2 .icons{
+    display:flex;
+}
+footer .row2 .icons a{
+    color: whitesmoke;
+    margin-left: 20px;
+}
